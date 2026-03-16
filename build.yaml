@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nrfmicro
+  - board: nrfmicro/nrf52840/zmk
     shield: cygnus_left
-  - board: nrf52840
+  - board: nrfmicro/nrf52840/zmk
     shield: cygnus_right
