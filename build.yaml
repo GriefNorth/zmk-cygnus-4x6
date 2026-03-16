@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: promicro_nrf52840
+  - board: promicro_nrf52840/nrf52840
     shield: cygnus_left
-  - board: promicro_nrf52840
+  - board: promicro_nrf52840/nrf52840
     shield: cygnus_right
