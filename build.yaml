@@ -18,8 +18,7 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nrfmicro/nrf52840
     shield: cygnus_left
-  - board: nice_nano
+  - board: nrfmicro/nrf52840
     shield: cygnus_right
-
