@@ -60,9 +60,9 @@
             , <&key_physical_attrs 100 100  310  440 3000  398  789>
             , <&key_physical_attrs 100 150  415  390 3000  398  789>
             // Thumb cluster (right)
-            , <&key_physical_attrs 100 150  992  390 -3000 1102  789>
-            , <&key_physical_attrs 100 100 1097  440 -3000 1102  789>
-            , <&key_physical_attrs 100 100 1025  460 -3000 1025  460>
+            , <&key_physical_attrs 100 150  992  390 (-3000) 1102  789>
+            , <&key_physical_attrs 100 100 1097  440 (-3000) 1102  789>
+            , <&key_physical_attrs 100 100 1025  460 (-3000) 1025  460>
             ;
     };
 };
