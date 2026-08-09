@@ -21,7 +21,7 @@ include:
   - board: nice_nano//zmk
     shield: cygnus_left
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -CONFIG_ZMK_STUDIO_LOCKING=n -DCONFIG_ZMK_STUDIO_LOCK_ON_DISCONNECT=n
   - board: nice_nano//zmk
     shield: cygnus_right
   - board: nice_nano//zmk
