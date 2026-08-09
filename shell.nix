@@ -48,6 +48,7 @@ let
     tqdm
     intelhex
     anytree
+    protobuf             # Google protobuf Python libs, required by protoc-gen-nanopb
     pip
     wheel
     setuptools
@@ -66,6 +67,7 @@ pkgs.mkShell {
     curl
     xz
     gcc
+    protobuf             # "protoc", required by the studio-rpc-usb-uart snippet
     dfu-util             # flasher for nice_nano (nRF5x)
   ];
 
